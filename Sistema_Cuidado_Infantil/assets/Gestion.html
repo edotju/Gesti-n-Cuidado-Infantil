@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KidzCare - Tu Gestión Infantil Inteligente</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+  <!-- HERO Section -->
+  <section class="relative bg-gradient-to-r from-blue-500 via-indigo-500 to-purple-500 overflow-hidden rounded-b-3xl shadow-2xl">
+    <div class="max-w-7xl mx-auto px-6 py-20 text-center">
+      <h1 class="text-5xl md:text-6xl font-bold text-white mb-6 animate-fade-in-up">
+        Mejora la gestión de tu centro infantil hoy mismo
+      </h1>
+      <p class="text-xl text-blue-100 mb-10 animate-fade-in-up delay-150">
+        Únete a cientos de guarderías que ya han optimizado sus procesos con <span class="font-semibold text-white">KidzCare</span>.  
+        <br> ¡Empieza gratis durante 30 días!
+      </p>
+
+      <div class="flex justify-center space-x-4">
+        <a href="#" class="bg-white text-indigo-600 font-bold py-4 px-8 rounded-full shadow-lg hover:bg-indigo-100 hover:scale-105 transition transform duration-300 animate-bounce">
+          Comenzar Ahora
+        </a>
+        <a href="#features" class="bg-transparent border-2 border-white text-white font-semibold py-4 px-8 rounded-full hover:bg-white hover:text-indigo-600 transition duration-300">
+          Ver Funciones
+        </a>
+      </div>
+    </div>
+
+    <!-- Decorative circles -->
+    <div class="absolute top-0 right-0 w-64 h-64 bg-white opacity-10 rounded-full -mt-32 -mr-32"></div>
+    <div class="absolute bottom-0 left-0 w-64 h-64 bg-white opacity-10 rounded-full -mb-32 -ml-32"></div>
+  </section>
+
+  <!-- FEATURES quick -->
+  <section id="features" class="py-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="text-center mb-12">
+        <h2 class="text-4xl font-extrabold text-indigo-700 mb-4">¿Por qué elegir KidzCare?</h2>
+        <p class="text-gray-600 text-lg">
+          Las mejores herramientas para el cuidado de los más pequeños.
+        </p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-8 bg-indigo-50 rounded-2xl shadow-md hover:shadow-2xl transition duration-300">
+          <h3 class="text-2xl font-bold text-indigo-700 mb-4">Fácil y Seguro</h3>
+          <p class="text-gray-600">Acceso seguro y manejo intuitivo para padres y educadores.</p>
+        </div>
+
+        <div class="p-8 bg-indigo-50 rounded-2xl shadow-md hover:shadow-2xl transition duration-300">
+          <h3 class="text-2xl font-bold text-indigo-700 mb-4">Gestión Completa</h3>
+          <p class="text-gray-600">Registra asistencia, actividades, alertas médicas y comunicación con padres.</p>
+        </div>
+
+        <div class="p-8 bg-indigo-50 rounded-2xl shadow-md hover:shadow-2xl transition duration-300">
+          <h3 class="text-2xl font-bold text-indigo-700 mb-4">Atención Personalizada</h3>
+          <p class="text-gray-600">Adaptado a las necesidades únicas de cada centro infantil.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CSS Animaciones -->
+  <style>
+    @keyframes fadeInUp {
+      0% {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      100% {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    .animate-fade-in-up {
+      animation: fadeInUp 1s ease-out;
+    }
+    .delay-150 {
+      animation-delay: 0.15s;
+    }
+  </style>
+
+</body>
+</html>
